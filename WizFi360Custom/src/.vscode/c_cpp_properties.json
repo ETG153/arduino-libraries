@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Users/PK/Documents/PlatformIO/Projects/220228-173238-megaatmega2560/include",
+                "c:/Users/PK/Documents/PlatformIO/Projects/220228-173238-megaatmega2560/src",
+                "E:/Project Files/Arduino Code/libraries/WizFi360Custom/src",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/variants/mega",
+                "E:/Project Files/Arduino Code/libraries/BD65496MUV",
+                "E:/Project Files/Arduino Code/libraries/OneWire",
+                "E:/Project Files/Arduino Code/libraries/Sensirion_Core/src",
+                "E:/Project Files/Arduino Code/libraries/Sensirion_I2C_SHT4x/src",
+                "E:/Project Files/Arduino Code/libraries/WizFi360/src",
+                "E:/Project Files/Arduino Code/libraries/arduino-libraries",
+                "E:/Project Files/Arduino Code/libraries/arduino-sht",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/PK/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/Arduino/hardware/**",
+                "E:/Project Files/Arduino Code/libraries/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

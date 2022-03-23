@@ -1,0 +1,8 @@
+
+# Datatypes (KEYWORD1):
+WizFi360	KEYWORD1
+
+# Methods and functions (KEYWORD2):
+init	KEYWORD2
+setMode	KEYWORD2
+connectWifi	KEYWORD2

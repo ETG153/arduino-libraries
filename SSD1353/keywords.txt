@@ -1,0 +1,19 @@
+
+# Datatypes (KEYWORD1):
+SSD1353	KEYWORD1
+
+# Methods and functions (KEYWORD2):
+init	KEYWORD2
+displayMode	KEYWORD2
+drawRectangle	KEYWORD2
+drawLine	KEYWORD2
+drawDot	KEYWORD2
+fill	KEYWORD2
+clear	KEYWORD2
+printchar	KEYWORD2
+printstr	KEYWORD2
+
+# Constants
+SSD1353_ON	LITERAL1
+SSD1353_OFF	LITERAL1
+SSD1353_INVERSE	LITERAL1
