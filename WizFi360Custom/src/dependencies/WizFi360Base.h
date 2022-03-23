@@ -16,4 +16,26 @@
 #ifndef WIZFI360BASE_H
 #define WIZFI360BASE_H
 
+#include <stdint.h>
+
+//#define DEBUG
+#ifdef DEBUG
+#include <HardwareSerial.h>
+#endif
+
+class WizFi360Drv {
+  public:
+  uint8_t init(class Stream* serial, uint8_t rst_pin);
+  bool sendCMD(char* command);
+  void getResponse(char* command, char* responsebuff);
+
+  private:
+  Stream* _serial;
+  uint8_t _rst_pin;
+
+#ifdef DEBUG
+  Stream* debug = &Serial;
+#endif
+};
+
 #endif

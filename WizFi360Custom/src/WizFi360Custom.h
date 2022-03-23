@@ -16,4 +16,31 @@
 #ifndef WIZFI360CUSTOM_H
 #define WIZFI360CUSTOM_H
 
+#include <stdint.h>
+
+//#define DEBUG
+#ifdef DEBUG
+#include <HardwareSerial.h>
+#endif
+
+#define WIZFI_MODE_STATION (uint8_t)1
+#define WIZFI_MODE_SOFTAP  (uint8_t)2
+#define WIZFI_MODE_BOTH    (uint8_t)3
+
+class WizFi360 {
+  public:
+  uint8_t init(class Stream* serial, uint8_t rst_pin);
+  uint8_t setMode(uint8_t mode);
+  uint8_t connectWifi(const char* SSID, const char* password);
+  uint8_t disconnectWifi(void);
+
+  private:
+  uint8_t _workingMode = 0;
+  bool _wifiConnected = false;
+
+#ifdef DEBUG
+  Stream* debug = &Serial;
+#endif
+};
+
 #endif
